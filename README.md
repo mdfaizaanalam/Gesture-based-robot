@@ -42,7 +42,7 @@ The L298N is an integrated monolithic circuit in a 15- lead Multiwatt and PowerS
 #### TT Gear Motors
 #### Rubber Wheels
 #### PCB (Printed Circuit Board)
-#### Male-Female Header Pins
+**Male-Female Header Pins**
 
 ## Circuit Diagram
 
