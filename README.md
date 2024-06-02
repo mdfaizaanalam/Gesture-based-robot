@@ -101,7 +101,7 @@ Textual circuit diagram for your project which illustrating the connections betw
 - Download and install the Arduino IDE from [here](https://www.arduino.cc/en/software).
 - Open the transmitter_code.ino and receiver_code.ino files in the Arduino IDE.
 
-3. Install the required libraries:
+3. Install the required libraries:- 
 Install the VirtualWire library from the Arduino Library Manager.
 Upload the code provided.
 
