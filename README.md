@@ -25,24 +25,24 @@ A robot is an intelligent machine commanded by a computer application to perform
 
 ## Components
 
-- **Arduino Uno**
+- **Arduino Uno**<br>
 The Arduino Uno is an open-source microcontroller board based on the Microchip ATmega328P microcontroller and developed by Arduino.cc. The board is equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards (shields) and other circuits. The board has 14 digital I/O pins (six capable of PWM output), 6 analog I/O pins, and is programmable with the Arduino IDE (Integrated Development Environment), via a type B USB cable. It can be powered by the USB cable or by an external 9-volt battery, though it accepts voltages between 7 and 20 volts.
 
-**Accelerometer ADXL335**
+- **Accelerometer ADXL335**<br>
 An accelerometer is an electromechanical device used to measure acceleration forces. Such forces may be static, like the continuous force of gravity or, as is the case with many mobile devices, dynamic to sense movement or vibrations. Acceleration is the measurement of the change in velocity, or speed divided by time. 
 
-**RF 433 MHz Module**
+- **RF 433 MHz Module**<br>
 In generally, the wireless systems designer has two overriding constraints: it must operate over a certain distance and transfer a certain amount of information within a data rate. The RF modules are very small in dimension and have a wide operating voltage range i.e. 3V to 12V.Basically the RF modules are 433 MHz RF transmitter and receiver modules. The transmitter draws no power when transmitting logic zero while fully suppressing the carrier frequency thus consume significantly low power in battery operation. When logic one is sent carrier is fully on to about 4.5mA with a 3volts power supply. The data is sent serially from the transmitter which is received by the tuned receiver. Transmitter and the receiver are duly interfaced to two microcontrollers for data transfer. 
 
-**Motor Driver L298N**
+- **Motor Driver L298N**<br>
 The L298N is an integrated monolithic circuit in a 15- lead Multiwatt and PowerSO20 packages. It is a high voltage , high current dual full-bridge driver de-signed to accept standard TTL logic level sand drive inductive loads such as relays, solenoids, DC and stepping motors. Two enable inputs are provided to enable or disable the device independently of the in-put signals .The emitters of the lower transistors of each bridge are connected together rand the corresponding external terminal can be used for the connection of an external sensing resistor. An additional Supply input is provided so that the logic works at a lower voltage. 
 
-**Prototyping Board**
-**9V and 12V Batteries**
-**TT Gear Motors**
-**Rubber Wheels**
-**PCB (Printed Circuit Board)**
-**Male-Female Header Pins**
+- **Prototyping Board**
+- **9V and 12V Batteries**
+- **TT Gear Motors**
+- **Rubber Wheels**
+- **PCB (Printed Circuit Board)**
+- **Male-Female Header Pins**
 
 ## Circuit Diagram
 
