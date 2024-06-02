@@ -34,6 +34,7 @@ The Arduino Uno is an open-source microcontroller board based on the Microchip A
 - **Accelerometer ADXL335**<br>
 
 ![Accelerometer](https://github.com/mdfaizaanalam/Gesture-based-robot/assets/83642826/9421a55f-e1bf-49d0-a1f5-dedb180f425d)
+
 An accelerometer is an electromechanical device used to measure acceleration forces. Such forces may be static, like the continuous force of gravity or, as is the case with many mobile devices, dynamic to sense movement or vibrations. Acceleration is the measurement of the change in velocity, or speed divided by time. 
 
 - **RF 433 MHz Module**<br>
@@ -43,6 +44,9 @@ An accelerometer is an electromechanical device used to measure acceleration for
 In generally, the wireless systems designer has two overriding constraints: it must operate over a certain distance and transfer a certain amount of information within a data rate. The RF modules are very small in dimension and have a wide operating voltage range i.e. 3V to 12V.Basically the RF modules are 433 MHz RF transmitter and receiver modules. The transmitter draws no power when transmitting logic zero while fully suppressing the carrier frequency thus consume significantly low power in battery operation. When logic one is sent carrier is fully on to about 4.5mA with a 3volts power supply. The data is sent serially from the transmitter which is received by the tuned receiver. Transmitter and the receiver are duly interfaced to two microcontrollers for data transfer. 
 
 - **Motor Driver L298N**<br>
+
+![MOTOR DRIVER L298N](https://github.com/mdfaizaanalam/Gesture-based-robot/assets/83642826/298da9bf-5b8f-4fbe-96d0-fa669b1a158d)
+
 The L298N is an integrated monolithic circuit in a 15- lead Multiwatt and PowerSO20 packages. It is a high voltage , high current dual full-bridge driver de-signed to accept standard TTL logic level sand drive inductive loads such as relays, solenoids, DC and stepping motors. Two enable inputs are provided to enable or disable the device independently of the in-put signals .The emitters of the lower transistors of each bridge are connected together rand the corresponding external terminal can be used for the connection of an external sensing resistor. An additional Supply input is provided so that the logic works at a lower voltage. 
 
 - **Prototyping Board**
@@ -122,7 +126,6 @@ Upload the code provided.
 2. Control the car:
 - Use hand gestures to control the car's movement. 
 - The accelerometer will detect the gestures and send the corresponding signals to the receiver Arduino, which will control the motors accordingly.
-
 
 
 
