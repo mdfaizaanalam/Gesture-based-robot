@@ -87,11 +87,11 @@ The Arduino Integrated Development Environment (IDE) is used for writing and upl
    cd gesture-control-robotic-car
 
 2. Open the Arduino IDE:
-Download and install the Arduino IDE from [here](https://www.arduino.cc/en/software).
-Open the transmitter_code.ino and receiver_code.ino files in the Arduino IDE.
+- Download and install the Arduino IDE from [here](https://www.arduino.cc/en/software).
+- Open the transmitter_code.ino and receiver_code.ino files in the Arduino IDE.
 
-Install the required libraries:
-3. Install the VirtualWire library from the Arduino Library Manager.
+3. Install the required libraries:
+- Install the VirtualWire library from the Arduino Library Manager.
 Upload the code provided.
 
 4. Connect your Arduino board to your computer and upload the transmitter_code.ino to the transmitter Arduino and receiver_code.ino to the receiver Arduino.
