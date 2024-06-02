@@ -26,6 +26,9 @@ A robot is an intelligent machine commanded by a computer application to perform
 ## Components
 
 - **Arduino Uno**<br>
+
+![Arduino](https://github.com/mdfaizaanalam/Gesture-based-robot/assets/83642826/92de9f17-8405-4562-9835-f21f99f41c43)
+
 The Arduino Uno is an open-source microcontroller board based on the Microchip ATmega328P microcontroller and developed by Arduino.cc. The board is equipped with sets of digital and analog input/output (I/O) pins that may be interfaced to various expansion boards (shields) and other circuits. The board has 14 digital I/O pins (six capable of PWM output), 6 analog I/O pins, and is programmable with the Arduino IDE (Integrated Development Environment), via a type B USB cable. It can be powered by the USB cable or by an external 9-volt battery, though it accepts voltages between 7 and 20 volts.
 
 - **Accelerometer ADXL335**<br>
