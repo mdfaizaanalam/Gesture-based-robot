@@ -102,7 +102,7 @@ Textual circuit diagram for your project which illustrating the connections betw
 - Open the transmitter_code.ino and receiver_code.ino files in the Arduino IDE.
 
 3. Install the required libraries:
-- Install the VirtualWire library from the Arduino Library Manager.
+Install the VirtualWire library from the Arduino Library Manager.
 Upload the code provided.
 
 4. Connect your Arduino board to your computer and upload the transmitter_code.ino to the transmitter Arduino and receiver_code.ino to the receiver Arduino.
