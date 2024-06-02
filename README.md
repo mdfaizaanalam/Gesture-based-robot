@@ -4,12 +4,12 @@ This project demonstrates a gesture-controlled robotic car using Arduino, accele
 
 ## Table of Contents
 
-- [Introduction]
-- [Features]
-- [Components]
-- [Circuit Diagram]
-- [Software]
-- [Installation]
+- [Introduction](#introduction)
+- [Features](#features)
+- [Components](#components)
+- [Circuit Diagram](#circuit-diagram)
+- [Software](#software)
+- [Installation](#installation)
 - [Usage](#usage)
 - [Acknowledgments](#acknowledgments)
 
