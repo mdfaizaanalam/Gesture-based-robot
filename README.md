@@ -11,7 +11,6 @@ This project demonstrates a gesture-controlled robotic car using Arduino, accele
 - [Software](#software)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
@@ -39,7 +38,42 @@ A robot is an intelligent machine commanded by a computer application to perform
 
 ## Circuit Diagram
 
-![Circuit Diagram](path/to/circuit_diagram.png)  <!-- Add the path to your circuit diagram image -->
+Textual circuit diagram for your project which illustrating the connections between components such as the Arduino, accelerometer, RF module, motor driver, and motors. Here's a textual guide for what the diagram should include:
+
+#### Textual Representation
+
+1. **Accelerometer (ADXL335)**:
+   - **VCC** → Arduino 5V
+   - **GND** → Arduino GND
+   - **X** → Arduino A1
+   - **Y** → Arduino A2
+   - **Z** → Arduino A3
+
+2. **RF Transmitter Module (for the transmitter Arduino)**:
+   - **VCC** → Arduino 5V
+   - **GND** → Arduino GND
+   - **DATA** → Arduino Digital Pin 12
+
+3. **RF Receiver Module (for the receiver Arduino)**:
+   - **VCC** → Arduino 5V
+   - **GND** → Arduino GND
+   - **DATA** → Arduino Digital Pin 11
+
+4. **Motor Driver (L298N)**:
+   - **IN1** → Arduino Digital Pin 3
+   - **IN2** → Arduino Digital Pin 4
+   - **IN3** → Arduino Digital Pin 5
+   - **IN4** → Arduino Digital Pin 6
+   - **ENA** → Arduino 5V (or PWM pin if using speed control)
+   - **ENB** → Arduino 5V (or PWM pin if using speed control)
+   - **Motor A terminals** → Left motor
+   - **Motor B terminals** → Right motor
+   - **12V Power** → External 12V power supply
+   - **GND** → Common ground
+
+5. **Power Supply**:
+   - Ensure all grounds are connected.
+   - The Arduino can be powered via USB or an external power supply.
 
 ## Software
 
@@ -53,10 +87,10 @@ The Arduino Integrated Development Environment (IDE) is used for writing and upl
    cd gesture-control-robotic-car
 
 2. Open the Arduino IDE:
-Download and install the Arduino IDE from here.
+Download and install the Arduino IDE from [here](https://www.arduino.cc/en/software).
 Open the transmitter_code.ino and receiver_code.ino files in the Arduino IDE.
-Install the required libraries:
 
+Install the required libraries:
 3. Install the VirtualWire library from the Arduino Library Manager.
 Upload the code provided.
 
