@@ -18,10 +18,10 @@ A robot is an intelligent machine commanded by a computer application to perform
 
 ## Features
 
-- Gesture-controlled movement
-- Wireless control using RF module
-- Obstacle detection and avoidance
-- Android app integration for remote control
+- Gesture-controlled movement 🖐️
+- Wireless control using RF module 📶
+- Obstacle detection and avoidance 🚧
+- Android app integration for remote control📱
 
 ## Components
 
