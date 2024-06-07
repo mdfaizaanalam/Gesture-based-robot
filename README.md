@@ -2,6 +2,8 @@
 
 This project demonstrates a gesture-controlled robotic car using Arduino, accelerometer, RF module, and motor driver. The car can be controlled by hand gestures through the accelerometer, and it can be further extended to be controlled by an Android-based mobile application with different modes (e.g., touch buttons mode, voice recognition mode). An automatic obstacle detection system is also implemented for improved safety.
 
+![Gesture_car 1](https://github.com/mdfaizaanalam/Gesture-based-robot/assets/83642826/244a7a2e-60a8-43b3-9d2f-ff8973373643)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
